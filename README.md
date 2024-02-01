@@ -10,10 +10,6 @@
 This project uses the [PHP-FIG](https://www.php-fig.org/) standard for commenting code, and we've taken great effort to show how and why each function is used.
 If you find a comment that needs amending, please feel free to submit a pull request to the dev branch. We want MINIM1 comments to be easy to read, helping new users understand why functions work the way they do.
 
-## Installation
-Open a terminal and use "composer install", this creates the VENDOR folder with all the dependencies. 
-### THE PHP APPLICATION WILL NOT WORK UNLESS YOU PERFORM THIS STEP.
-
 ## What's new?
 Simplified installation process, using composer install. Protected view() function in the Controllers with a variable passing examples on all routes ($PageTitle in the header.php)
 
@@ -21,5 +17,10 @@ Simplified installation process, using composer install. Protected view() functi
 We wanted to create a version of MINI3 that was more customisable, included a number of new features, and that is a signifacnt depatrure from MINI3's goals of being super simple/lightwieght. We also wanted to create a version that was more suited to our needs, and that we could use as a base for future projects. 
 
 We also want MINIM1 to be an easier starting point for PHP beginners who are trying to learn the MVC pattern.
+
+## Installation
+Open a terminal and use "composer install", this creates the VENDOR folder with all the dependencies. 
+### THE PHP APPLICATION WILL NOT WORK UNLESS YOU PERFORM THIS STEP.
+
 
 ~ BeardyMike
