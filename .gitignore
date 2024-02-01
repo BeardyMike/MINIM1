@@ -2,3 +2,9 @@
 .DS_Store
 *.log
 composer.lock
+vendor/composer/LICENSE
+vendor/composer/installed.json
+vendor/composer/ClassLoader.php
+vendor/composer/autoload_static.php
+vendor/composer/autoload_real.php
+vendor/composer/autoload_psr4.php

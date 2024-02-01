@@ -33,7 +33,7 @@ if (ENVIRONMENT == 'development' || ENVIRONMENT == 'dev') {
  * versions of MINI it was 'http://' for normal HTTP and 'https://' if you have a HTTPS site for sure. Now the
  * protocol-independent '//' is used, which auto-recognized the protocol.
 */
-define('URL_PROTOCOL', 'https://');
+define('URL_PROTOCOL', '//');
 
 /*
  * URL_DOMAIN:
