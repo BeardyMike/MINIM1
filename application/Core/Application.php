@@ -30,7 +30,8 @@ class Application
             $page = new \MINIM1\Controller\HomeController();
             $page->index();
 
-        } elseif (file_exists(APP . 'Controller/' . ucfirst($this->url_controller) . 'Controller.php')) {
+        }
+        elseif (file_exists(APP . 'Controller/' . ucfirst($this->url_controller) . 'Controller.php')) {
             // here we did check for controller: does such a controller exist ?
 
             // if so, then load this file and create this controller
@@ -44,21 +45,25 @@ class Application
                 if (!empty($this->url_params)) {
                     // Call the method and pass arguments to it
                     call_user_func_array(array($this->url_controller, $this->url_action), $this->url_params);
-                } else {
+                }
+                else {
                     // If no parameters are given, just call the method without parameters, like $this->home->method();
                     $this->url_controller->{$this->url_action}();
                 }
 
-            } else {
+            }
+            else {
                 if (empty($this->url_action)) {
                     // no action defined: call the default index() method of a selected controller
                     $this->url_controller->index();
-                } else {
-                    header('location: ' . URL . 'error');
+                }
+                else {
+                    header('location: ' . URL . 'error/page-not-found');
                 }
             }
-        } else {
-            header('location: ' . URL . 'error');
+        }
+        else {
+            header('location: ' . URL . 'error/controller-not-found');
         }
     }
 
@@ -77,8 +82,8 @@ class Application
             // Put URL parts into according properties
             // By the way, the syntax here is just a short form of if/else, called "Ternary Operators"
             // @see http://davidwalsh.name/php-shorthand-if-else-ternary-operators
-            $this->url_controller = isset($url[0]) ? $url[0] : null;
-            $this->url_action = isset($url[1]) ? $url[1] : null;
+            $this->url_controller = isset($url[0]) ? str_replace("-", "_", $url[0]) : null;
+            $this->url_action = isset($url[1]) ? str_replace("-", "_", $url[1]): null;
 
             // Remove controller and action from the split URL
             unset($url[0], $url[1]);
