@@ -6,7 +6,7 @@
  In the _Tools folder you'll find a number of useful tools, including a Python NameSpace Renamer, a Python Crawler for highlighting routing errors, and a full dummy SQL DB for you to inport for testing purposes.
 
 ## Commenting
-This project uses the [PHPDoc](https://www.phpdoc.org/) standard for commenting code, and we've taken great effort to show how and why each function is used.
+This project uses the [PHP-FIG](https://www.php-fig.org/) standard for commenting code, and we've taken great effort to show how and why each function is used.
 If you find a comment that needs amending, please feel free to submit a pull request to the dev branch. 
 
 ## Installation
