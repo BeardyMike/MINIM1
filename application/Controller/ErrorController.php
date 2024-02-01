@@ -28,4 +28,82 @@ class ErrorController
         view('error/index.php');
         view('_templates/footer.php');
     }
+
+    /**
+     * PAGE: page not found
+     * This method handles the error page that will be shown when a page is not found
+     */
+    public function page_not_found()
+    {
+        // load views, and pass data to views using ['key' => 'value'] syntax
+        view('_templates/header.php', [
+            'meta_title' => 'Error',
+            'meta_description' => 'Page not found',
+            'meta_canonical' => URL . "error"
+        ]);
+        view('error/page_not_found.php');
+        view('_templates/footer.php');
+    }
+
+     /**
+     * PAGE: controller not found
+     * This method handles the error page that will be shown when a page is not found
+     */
+    public function controller_not_found()
+    {
+        // load views, and pass data to views using ['key' => 'value'] syntax
+        view('_templates/header.php', [
+            'meta_title' => 'Error controller not found',
+            'meta_description' => 'This the pages meta description',
+            'meta_canonical' => URL . "error"
+        ]);
+        view('error/page_not_found.php');
+        view('_templates/footer.php');
+    }
+
+     /**
+     * PAGE: Internal server error
+     * This method handles the error page that will be shown when a page is not found
+     */
+    public function error500()
+    {
+        // load views, and pass data to views using ['key' => 'value'] syntax
+        view('_templates/header.php', [
+            'meta_title' => 'Error controller not found',
+            'meta_description' => 'This the pages meta description',
+            'meta_canonical' => URL . "error"
+        ]);
+        view('error/page_not_found.php');
+        view('_templates/footer.php');
+    }
+     /**
+     * PAGE: page not found
+     * This method handles the error page that will be shown when a page is not found
+     */
+    public function error404()
+    {
+        // load views, and pass data to views using ['key' => 'value'] syntax
+        view('_templates/header.php', [
+            'meta_title' => 'Error controller not found',
+            'meta_description' => 'This the pages meta description',
+            'meta_canonical' => URL . "error"
+        ]);
+        view('error/page_not_found.php');
+        view('_templates/footer.php');
+    }
+     /**
+     * PAGE: Bad request
+     * This method handles the error page that will be shown when a page is not found
+     */
+    public function error400()
+    {
+        // load views, and pass data to views using ['key' => 'value'] syntax
+        view('_templates/header.php', [
+            'meta_title' => 'Error controller not found',
+            'meta_description' => 'This the pages meta description',
+            'meta_canonical' => URL . "error"
+        ]);
+        view('error/page_not_found.php');
+        view('_templates/footer.php');
+    }
 }
