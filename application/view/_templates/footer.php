@@ -6,7 +6,10 @@
         var url = "<?php echo URL; ?>";
     </script>
 
-    <!-- our JavaScript -->
+    <!-- Main JavaScript -->
     <script src="<?php echo URL; ?>js/application.js"></script>
+    <?php if(isset($page_js)){?>
+    <script src="<?php echo URL; ?>js/<?php echo $page_js;?>.js"></script>
+    <?php }?>
 </body>
 </html>

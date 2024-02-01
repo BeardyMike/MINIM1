@@ -11,6 +11,12 @@
 
 namespace MINIM1\Controller;
 
+/**
+ * Models
+ * This is where you pull the models that are required for this controller
+ */
+use Mini\model\Read;
+
 class ErrorController
 {
     /**
@@ -39,7 +45,7 @@ class ErrorController
         view('_templates/header.php', [
             'meta_title' => 'Error',
             'meta_description' => 'Page not found',
-            'meta_canonical' => URL . "error"
+            'meta_canonical' => URL . "error/page-not-found"
         ]);
         view('error/page_not_found.php');
         view('_templates/footer.php');
@@ -55,7 +61,7 @@ class ErrorController
         view('_templates/header.php', [
             'meta_title' => 'Error controller not found',
             'meta_description' => 'This the pages meta description',
-            'meta_canonical' => URL . "error"
+            'meta_canonical' => URL . "error/controller-not-found"
         ]);
         view('error/page_not_found.php');
         view('_templates/footer.php');
@@ -71,7 +77,7 @@ class ErrorController
         view('_templates/header.php', [
             'meta_title' => 'Error controller not found',
             'meta_description' => 'This the pages meta description',
-            'meta_canonical' => URL . "error"
+            'meta_canonical' => URL . "error/error500"
         ]);
         view('error/page_not_found.php');
         view('_templates/footer.php');
@@ -86,7 +92,7 @@ class ErrorController
         view('_templates/header.php', [
             'meta_title' => 'Error controller not found',
             'meta_description' => 'This the pages meta description',
-            'meta_canonical' => URL . "error"
+            'meta_canonical' => URL . "error/error404"
         ]);
         view('error/page_not_found.php');
         view('_templates/footer.php');
@@ -101,7 +107,7 @@ class ErrorController
         view('_templates/header.php', [
             'meta_title' => 'Error controller not found',
             'meta_description' => 'This the pages meta description',
-            'meta_canonical' => URL . "error"
+            'meta_canonical' => URL . "error/error400"
         ]);
         view('error/page_not_found.php');
         view('_templates/footer.php');
