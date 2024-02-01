@@ -21,6 +21,3 @@ We also want MINIM1 to be an easier starting point for PHP beginners who are try
 ## Installation
 Open a terminal and use "composer install", this creates the VENDOR folder with all the dependencies. 
 ### THE PHP APPLICATION WILL NOT WORK UNLESS YOU PERFORM THIS STEP.
-
-
-~ BeardyMike
