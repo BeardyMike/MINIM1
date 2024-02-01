@@ -1,4 +1,4 @@
-# ![MINIM1 logo, a bold font with sharp angles](https://raw.githubusercontent.com/BeardyMike/MINIM1/dev/public/img/MINIM1-w.png)
+# ![MINIM1 logo, a bold font with sharp angles](https://raw.githubusercontent.com/BeardyMike/MINIM1/dev/public/img/MINIM1-w.png#gh-dark-mode-only)![MINIM1 logo, a bold font with sharp angles](https://raw.githubusercontent.com/BeardyMike/MINIM1/dev/public/img/MINIM1.png#gh-light-mode-only)
  A clean PHP application, with diagnostic and setup tools, plenty of example pages, and many handy functions built in.
 <br> Ideal for PHP beginners, or someone looking for a clean starter MVC-pattern project.
  
@@ -21,6 +21,3 @@ We also want MINIM1 to be an easier starting point for PHP beginners who are try
 ## Installation
 Open a terminal and use "composer install", this creates the VENDOR folder with all the dependencies. 
 ### THE PHP APPLICATION WILL NOT WORK UNLESS YOU PERFORM THIS STEP.
-
-
-~ BeardyMike
