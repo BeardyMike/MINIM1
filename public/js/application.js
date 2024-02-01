@@ -6,7 +6,7 @@ $("#modal").on('submit', '#form_name_id', function (event) {
     var data = $("#form_name_id").serialize();
     console.log(data);
     $.ajax({
-        url: siteurl + "ajax/update/update-customer",
+        url: siteurl + "ajax/update/update-customer/",
         type: 'POST',
         data: data,
         cache: false,

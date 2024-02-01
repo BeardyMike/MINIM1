@@ -19,6 +19,19 @@ class LoginController
      */
     public function index()
     {
+        if(isset($_POST['user_name']) && isset($_POST['user_password'])){
+
+            // load views, and pass data to views using ['key' => 'value'] syntax
+            $_SESSION['user']['name'] = $_POST['user_name'];
+            $_SESSION['user']['password'] = $_POST['user_password'];
+    
+            view('login/success.php', [
+                'name' => $_SESSION['user']['name'], 
+                'password' => $_SESSION['user']['password']
+            ]);
+            exit();
+        }
+
         // load views, and pass data to views using ['key' => 'value'] syntax
         view('_templates/header.php', [
             'meta_title' => 'Login',
@@ -26,7 +39,9 @@ class LoginController
             'meta_canonical' => URL . 'login'
         ]);
         view('login/index.php');
-        view('_templates/footer.php');
+        view('_templates/footer.php',[
+            'page_js' => 'login' 
+        ]);
     }
 
     public function success()
