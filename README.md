@@ -1,4 +1,4 @@
-# MINIM1
+![MINIM1 logo, a bold font with sharp angles]([https:/github.com/beardymike/minim1/public/img/minim1.png](https://raw.githubusercontent.com/BeardyMike/MINIM1/dev/public/img/MINIM1.png))
  A simple PHP application, with many new tools, pages, and functions built in.
  
  MINIM1 is an extension of [MINI3](https://github.com/panique/mini3), from [Panique](https://github.com/panique). This version allows for deeper customisation, and includes a number of new features.
