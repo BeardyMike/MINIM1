@@ -77,8 +77,8 @@ class Application
             // Put URL parts into according properties
             // By the way, the syntax here is just a short form of if/else, called "Ternary Operators"
             // @see http://davidwalsh.name/php-shorthand-if-else-ternary-operators
-            $this->url_controller = isset($url[0]) ? $url[0] : null;
-            $this->url_action = isset($url[1]) ? $url[1] : null;
+            $this->url_controller = isset($url[0]) ? str_replace("-", "_", $url[0]) : null;
+            $this->url_action = isset($url[1]) ? str_replace("-", "_", $url[1]): null;
 
             // Remove controller and action from the split URL
             unset($url[0], $url[1]);
