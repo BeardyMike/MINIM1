@@ -20,7 +20,11 @@ class HomeController
     public function index()
     {
         // load views, and pass data to views using ['key' => 'value'] syntax
-        view('_templates/header.php', ['meta_title' => 'Home']);
+        view('_templates/header.php', [
+            'meta_title' => 'Homepage',
+            'meta_description' => 'This the pages meta description',
+            'meta_canonical' => URL . "home"
+        ]);
         view('home/index.php');
         view('_templates/footer.php');
     }
@@ -30,10 +34,14 @@ class HomeController
      * This method handles what happens when you move to http://yourproject/home/exampleone
      * The camelCase writing is just for better readability. The method name is case-insensitive.
      */
-    public function exampleOne()
+    public function example_one()
     {
         // load views, and pass data to views using ['key' => 'value'] syntax
-        view('_templates/header.php', ['meta_title' => 'PageOne']);
+        view('_templates/header.php', [
+            'meta_title' => 'Page one',
+            'meta_description' => 'This the pages meta description',
+            'meta_canonical' => URL . "home/example-one"
+        ]);
         view('home/example_one.php');
         view('_templates/footer.php');
     }
@@ -43,10 +51,14 @@ class HomeController
      * This method handles what happens when you move to http://yourproject/home/exampletwo
      * The camelCase writing is just for better readability. The method name is case-insensitive.
      */
-    public function exampleTwo()
+    public function example_two()
     {
         // load views, and pass data to views using ['key' => 'value'] syntax
-        view('_templates/header.php', ['meta_title' => 'PageTwo']);
+        view('_templates/header.php', [
+            'meta_title' => 'Page two',
+            'meta_description' => 'This the pages meta description',
+            'meta_canonical' => URL . "home/example-two"
+        ]);
         view('home/example_two.php');
         view('_templates/footer.php');
     }

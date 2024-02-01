@@ -20,7 +20,11 @@ class ErrorController
     public function index()
     {
         // load views, and pass data to views using ['key' => 'value'] syntax
-        view('_templates/header.php', ['meta_title' => 'Error']);
+        view('_templates/header.php', [
+            'meta_title' => 'Error',
+            'meta_description' => 'This the pages meta description',
+            'meta_canonical' => URL . "error"
+        ]);
         view('error/index.php');
         view('_templates/footer.php');
     }

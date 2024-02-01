@@ -6,9 +6,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- JS -->
-    <!-- please note: The JavaScript files are loaded in the footer to speed up page construction -->
-
+    <link href="<?php echo $meta_canonical;?>" rel="canonical" />
     <!-- CSS -->
     <link href="<?php echo URL; ?>css/style.css" rel="stylesheet">
 </head>

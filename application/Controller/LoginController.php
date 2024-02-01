@@ -20,7 +20,11 @@ class LoginController
     public function index()
     {
         // load views, and pass data to views using ['key' => 'value'] syntax
-        view('_templates/header.php', ['meta_title' => 'Login']);
+        view('_templates/header.php', [
+            'meta_title' => 'Login',
+            'meta_description' => 'This the pages meta description',
+            'meta_canonical' => URL . "login"
+        ]);
         view('login/index.php');
         view('_templates/footer.php');
     }
@@ -32,7 +36,11 @@ class LoginController
         $_SESSION['user']['password'] = $_POST['user_password'];
 
         // load views, and pass data to views using ['key' => 'value', 'key2' => 'value2'] syntax
-        view('_templates/header.php', ['meta_title' => 'Login']);
+        view('_templates/header.php', [
+            'meta_title' => 'Login',
+            'meta_description' => 'This the pages meta description',
+            'meta_canonical' => URL . "login/success"
+        ]);
         view('login/success.php', [
             'name' => $_SESSION['user']['name'], 
             'password' => $_SESSION['user']['password']
