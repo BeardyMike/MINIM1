@@ -11,7 +11,8 @@ If you find a comment that needs amending, please feel free to submit a pull req
 
 ## Installation
 Open a terminal and use "composer install", this creates the VENDOR folder with all the dependencies. 
-THE PHP APPLICATION WILL NOT WORK UNLESS YOU PERFORM THIS STEP.
+<br>
+<b>THE PHP APPLICATION WILL NOT WORK UNLESS YOU PERFORM THIS STEP.<b>
 
 ## What's new?
 Simplified installation process, using composer install. Protected view() function in the Controllers with a variable passing examples on all routes ($PageTitle in the header.php)
