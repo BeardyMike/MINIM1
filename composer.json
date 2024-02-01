@@ -1,0 +1,12 @@
+{
+    "name": "beardymike/minim1",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":
+    {
+        "psr-4":
+        {
+            "MINIM1\\" : "application/"
+        }
+    }
+}
