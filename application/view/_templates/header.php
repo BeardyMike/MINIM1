@@ -17,7 +17,7 @@
     <!-- navigation -->
     <div class="navigation">
         <a href="<?php echo URL; ?>">home</a>
-        <a href="<?php echo URL; ?>home/exampleone">home/exampleone</a>
-        <a href="<?php echo URL; ?>home/exampletwo">home/exampletwo</a>
+        <a href="<?php echo URL; ?>home/example-one">home/exampleone</a>
+        <a href="<?php echo URL; ?>home/example-two">home/exampletwo</a>
         <a href="<?php echo URL; ?>login">Login</a>
     </div>
