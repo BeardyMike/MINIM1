@@ -22,4 +22,4 @@ Open a terminal and use "composer install", this creates the VENDOR folder with 
 ### THE PHP APPLICATION WILL NOT WORK UNLESS YOU PERFORM THIS STEP.
 
 
-~ BeardyMike
+~ [BeardyMike](https://github.com/BeardyMike) & [ORXXOR](https://github.com/ORXXOR)
