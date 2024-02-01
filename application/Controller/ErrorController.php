@@ -19,8 +19,8 @@ class ErrorController
      */
     public function index()
     {
-        // load views
-        view('_templates/header.php', ['PageTitle' => 'Error']);
+        // load views, and pass data to views using ['key' => 'value'] syntax
+        view('_templates/header.php', ['meta_title' => 'Error']);
         view('error/index.php');
         view('_templates/footer.php');
     }

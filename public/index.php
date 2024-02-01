@@ -1,7 +1,7 @@
 <?php
 
 /**
- * MINI - an extremely simple naked PHP application
+ * MINIM1 - an extremely simple naked PHP application
  *
  * @package MINIM1
  * @author BeardyMike
@@ -10,6 +10,8 @@
  * @license http://opensource.org/licenses/MIT MIT License
  */
 
+// start the session (required for login system), we call this as early as possible, so the session is available in all other controllers. otherwise we would have to start the session in each controller __construct().
+session_start(); // this allows us the use of $_SESSION variable, which is an array. Each user has its own $_SESSION array, so this is how we can keep track of the user's login status etc.
 
 // set a constant that holds the project's folder path, like "/var/www/".
 // DIRECTORY_SEPARATOR adds a slash to the end of the path

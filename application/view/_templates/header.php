@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $PageTitle . " "; ?>| MINIM1</title>
+    <title><?php echo $meta_title . " "; ?>| MINIM1</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,4 +21,5 @@
         <a href="<?php echo URL; ?>">home</a>
         <a href="<?php echo URL; ?>home/exampleone">home/exampleone</a>
         <a href="<?php echo URL; ?>home/exampletwo">home/exampletwo</a>
+        <a href="<?php echo URL; ?>login">Login</a>
     </div>

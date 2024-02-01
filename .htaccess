@@ -1,3 +1,5 @@
+# this is here as a fallback for when the site is hosted on a server that isn't using public as the root directory.
+# better to have and not need than need and not have.
 RewriteEngine on
 Options -MultiViews
 Options -Indexes

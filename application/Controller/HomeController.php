@@ -19,8 +19,8 @@ class HomeController
      */
     public function index()
     {
-        // load views
-        view('_templates/header.php', ['PageTitle' => 'Home']);
+        // load views, and pass data to views using ['key' => 'value'] syntax
+        view('_templates/header.php', ['meta_title' => 'Home']);
         view('home/index.php');
         view('_templates/footer.php');
     }
@@ -32,8 +32,8 @@ class HomeController
      */
     public function exampleOne()
     {
-        // load views
-        view('_templates/header.php', ['PageTitle' => 'PageOne']);
+        // load views, and pass data to views using ['key' => 'value'] syntax
+        view('_templates/header.php', ['meta_title' => 'PageOne']);
         view('home/example_one.php');
         view('_templates/footer.php');
     }
@@ -45,8 +45,8 @@ class HomeController
      */
     public function exampleTwo()
     {
-        // load views
-        view('_templates/header.php', ['PageTitle' => 'PageTwo']);
+        // load views, and pass data to views using ['key' => 'value'] syntax
+        view('_templates/header.php', ['meta_title' => 'PageTwo']);
         view('home/example_two.php');
         view('_templates/footer.php');
     }
