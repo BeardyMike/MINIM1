@@ -6,7 +6,7 @@ $("#modal").on('submit', '#form_name_id', function (event) {
     var data = $("#form_name_id").serialize();
     console.log(data);
     $.ajax({
-        url: siteurl + "path_to_controller/",
+        url: siteurl + "ajax/update/update-customer",
         type: 'POST',
         data: data,
         cache: false,
@@ -25,7 +25,6 @@ $("#modal").on('submit', '#form_name_id', function (event) {
 $(".class_name").on( "click", function() {
     var1 = this.data.id;
     var2 = this.dataset.rid;
-
     $.ajax({
         url: siteurl + "path_to_controller/" + var1 + "/" + var2,
         context: document.body

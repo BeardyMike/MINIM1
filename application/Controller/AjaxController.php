@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Class HomeController
  *
@@ -14,8 +13,8 @@ namespace MINIM1\Controller;
 class AjaxController
 {
     /**
-     * PAGE: index
-     * This method handles what happens when you move to http://yourproject/home/index (which is the default page btw)
+     * PAGE: create
+     * This method handles the ajax calls for create functions and the returns a message or page output
      */
     public function create($section="", $action="", $var1="", $var2="", $var3="")
     {
@@ -23,9 +22,8 @@ class AjaxController
     }
 
     /**
-     * PAGE: exampleone
-     * This method handles what happens when you move to http://yourproject/home/exampleone
-     * The camelCase writing is just for better readability. The method name is case-insensitive.
+     * PAGE: create
+     * This method handles the ajax calls for read functions and the returns a message or page output
      */
     public function read($section="", $action="", $var1="", $var2="", $var3="")
     {
@@ -33,9 +31,8 @@ class AjaxController
     }
 
     /**
-     * PAGE: exampletwo
-     * This method handles what happens when you move to http://yourproject/home/exampletwo
-     * The camelCase writing is just for better readability. The method name is case-insensitive.
+     * PAGE: read
+     * This method handles the ajax calls for update functions and the returns a message or page output
      */
     public function update($section="", $action="", $var1="", $var2="", $var3="")
     {
@@ -44,8 +41,7 @@ class AjaxController
 
     /**
      * PAGE: delete
-     * This method handles what happens when you move to http://yourproject/home/exampletwo
-     * The camelCase writing is just for better readability. The method name is case-insensitive.
+     * This method handles the ajax calls for delete functions and the returns a message or page output
      */
     public function delete($section="", $action="", $var1="", $var2="", $var3="")
     {
