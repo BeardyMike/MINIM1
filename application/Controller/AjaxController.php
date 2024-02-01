@@ -28,6 +28,9 @@ class AjaxController
     public function read($section="", $action="", $var1="", $var2="", $var3="")
     {
         // Do read stuff
+        if ($section=="get-homepage"){
+            echo "YOU ARE ON THE HOMEPAGE";
+        }
     }
 
     /*

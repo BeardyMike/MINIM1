@@ -23,7 +23,7 @@ class LoginController
         view('_templates/header.php', [
             'meta_title' => 'Login',
             'meta_description' => 'This the pages meta description',
-            'meta_canonical' => URL . "login"
+            'meta_canonical' => URL . 'login'
         ]);
         view('login/index.php');
         view('_templates/footer.php');
@@ -39,7 +39,7 @@ class LoginController
         view('_templates/header.php', [
             'meta_title' => 'Login',
             'meta_description' => 'This the pages meta description',
-            'meta_canonical' => URL . "login/success"
+            'meta_canonical' => URL . 'login/success'
         ]);
         view('login/success.php', [
             'name' => $_SESSION['user']['name'], 

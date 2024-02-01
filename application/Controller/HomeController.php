@@ -26,7 +26,9 @@ class HomeController
             'meta_canonical' => URL . "home"
         ]);
         view('home/index.php');
-        view('_templates/footer.php');
+        view('_templates/footer.php',[
+            'page_js' => 'homepage',
+        ]);
     }
 
     /**
