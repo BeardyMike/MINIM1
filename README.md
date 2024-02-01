@@ -1,4 +1,4 @@
-# ![MINIM1 logo, a bold font with sharp angles](https://raw.githubusercontent.com/BeardyMike/MINIM1/dev/public/img/MINIM1.png#gh-light-mode-only)
+![MINIM1 logo, a bold font with sharp angles](https://raw.githubusercontent.com/BeardyMike/MINIM1/dev/public/img/MINIM1.png#gh-light-mode-only)
 # ![MINIM1 logo, a bold font with sharp angles](https://raw.githubusercontent.com/BeardyMike/MINIM1/dev/public/img/MINIM1-w.png#gh-dark-mode-only)
  A clean PHP application, with diagnostic and setup tools, plenty of example pages, and many handy functions built in.
 <br> Ideal for PHP beginners, or someone looking for a clean starter MVC-pattern project.
