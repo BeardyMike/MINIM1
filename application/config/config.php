@@ -29,7 +29,7 @@ if (ENVIRONMENT == 'development' || ENVIRONMENT == 'dev') {
     /*
     * URL_PROTOCOL:
     * The protocol. Don't change unless you know exactly what you do. This defines the protocol part of the URL, in older
-    * versions of MINI it was 'http://' for normal HTTP and 'https://' if you have a HTTPS site for sure. Now the
+    * versions of MINIM1 it was 'http://' for normal HTTP and 'https://' if you have a HTTPS site for sure. Now the
     * protocol-independent '//' is used, which auto-recognized the protocol.
     */
     define('URL_PROTOCOL', '//');
@@ -93,7 +93,7 @@ else{
     /*
     * URL_PROTOCOL:
     * The protocol. Don't change unless you know exactly what you do. This defines the protocol part of the URL, in older
-    * versions of MINI it was 'http://' for normal HTTP and 'https://' if you have a HTTPS site for sure. Now the
+    * versions of MINIM1 it was 'http://' for normal HTTP and 'https://' if you have a HTTPS site for sure. Now the
     * protocol-independent '//' is used, which auto-recognized the protocol.
     */
     define('URL_PROTOCOL', 'https://');

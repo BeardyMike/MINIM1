@@ -15,7 +15,7 @@ namespace MINIM1\Controller;
  * Models
  * This is where you pull the models that are required for this controller
  */
-use Mini\model\Read;
+use MINIM1\model\Read;
 
 class ErrorController
 {

@@ -35,7 +35,7 @@ class Application
             // here we did check for controller: does such a controller exist ?
 
             // if so, then load this file and create this controller
-            // like \Mini\Controller\CarController
+            // like \MINIM1\Controller\CarController
             $controller = "\\MINIM1\\Controller\\" . ucfirst($this->url_controller) . 'Controller';
             $this->url_controller = new $controller();
 
