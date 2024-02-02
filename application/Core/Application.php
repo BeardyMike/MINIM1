@@ -48,14 +48,18 @@ class Application
                 }
                 else {
                     // If no parameters are given, just call the method without parameters, like $this->home->method();
-                    $this->url_controller->{$this->url_action}();
+                    if ($this->url_controller !== null) {
+                        $this->url_controller->{$this->url_action}();
+                    }
                 }
 
             }
             else {
                 if (empty($this->url_action)) {
                     // no action defined: call the default index() method of a selected controller
-                    $this->url_controller->index();
+                    if ($this->url_controller !== null) {
+                        $this->url_controller->index();
+                    }
                 }
                 else {
                     header('location: ' . URL . 'error/page-not-found');
