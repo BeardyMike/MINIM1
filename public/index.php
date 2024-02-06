@@ -5,7 +5,7 @@
  *
  * @package MINIM1
  * @author BeardyMike
- * @link http://www.php-mini.com
+ * @link http://www.beardymike.co.uk
  * @link https://github.com/beardymike/MINIM1
  * @license http://opensource.org/licenses/MIT MIT License
  */

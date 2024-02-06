@@ -35,7 +35,7 @@ class Application
             // here we did check for controller: does such a controller exist ?
 
             // if so, then load this file and create this controller
-            // like \Mini\Controller\CarController
+            // like \MINIM1\Controller\CarController
             $controller = "\\MINIM1\\Controller\\" . ucfirst($this->url_controller) . 'Controller';
             $this->url_controller = new $controller();
 
@@ -48,14 +48,18 @@ class Application
                 }
                 else {
                     // If no parameters are given, just call the method without parameters, like $this->home->method();
-                    $this->url_controller->{$this->url_action}();
+                    if ($this->url_controller !== null) {
+                        $this->url_controller->{$this->url_action}();
+                    }
                 }
 
             }
             else {
                 if (empty($this->url_action)) {
                     // no action defined: call the default index() method of a selected controller
-                    $this->url_controller->index();
+                    if ($this->url_controller !== null) {
+                        $this->url_controller->index();
+                    }
                 }
                 else {
                     header('location: ' . URL . 'error/page-not-found');

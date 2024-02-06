@@ -19,6 +19,7 @@ class LoginController
      */
     public function index()
     {
+        // Process login form
         if(isset($_POST['user_name']) && isset($_POST['user_password'])){
 
             // load views, and pass data to views using ['key' => 'value'] syntax
@@ -32,7 +33,7 @@ class LoginController
             exit();
         }
 
-        // load views, and pass data to views using ['key' => 'value'] syntax
+        // Return default login view
         view('_templates/header.php', [
             'meta_title' => 'Login',
             'meta_description' => 'This the pages meta description',
