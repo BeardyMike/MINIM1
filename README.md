@@ -14,7 +14,7 @@ If you find a comment that needs amending, please feel free to submit a pull req
 Simplified installation process, using composer install. Protected view() function in the Controllers with a variable passing examples on all routes ($PageTitle in the header.php)
 
 ## Why not just fork MINI3?
-We wanted to create a version of MINI3 that was more customisable, included a number of new features, and that is a signifacnt depatrure from MINI3's goals of being super simple/lightwieght. We also wanted to create a version that was more suited to our needs, and that we could use as a base for future projects. 
+We wanted to create a version of MINI3 that was more up to date, included a number of new features, and that is a signifacnt depatrure from MINI3's goals of being super simple/lightwieght. We want MINIM1 to be a 
 
 We also want MINIM1 to be an easier starting point for PHP beginners who are trying to learn the MVC pattern.
 
