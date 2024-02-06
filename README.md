@@ -14,17 +14,7 @@
 ## Commenting
 This project uses the [PHP-FIG](https://www.php-fig.org/) standard for commenting code, and we've taken great effort to show how and why each function is used.
 If you find a comment that needs amending, please feel free to submit a pull request to the dev branch. We want MINIM1 comments to be easy to read, helping new users understand why functions work the way they do.
-
-## What's new?
-Simplified installation process, using composer install. Protected view() function in the Controllers with a variable passing on most routes. 
-```
-   view('_templates/header.php', [
-       'meta_title' => 'Homepage',
-       'meta_description' => 'This the pages meta description',
-       'meta_canonical' => URL . "home"
-       ]);
-```
-
+  
 ## Why not just fork MINI3?
 We wanted to create a version of MINI3 that was more up to date, included a number of new features, and that is a signifacnt depatrure from MINI3's goals of being super simple/lightwieght. We want MINIM1 to be a 
 
@@ -33,3 +23,17 @@ We also want MINIM1 to be an easier starting point for PHP beginners who are try
 ## Installation
 Open a terminal and use "composer install", this creates the VENDOR folder with all the dependencies. 
 ### THE PHP APPLICATION WILL NOT WORK UNLESS YOU PERFORM THIS STEP.
+
+------------------------------------------------------------------------
+## What's new?
+- Simplified installation process, using composer install. Protected view() function in the Controllers with a variable passing on most routes. 
+```
+   view('_templates/header.php', [
+       'meta_title' => 'Homepage',
+       'meta_description' => 'This the pages meta description',
+       'meta_canonical' => URL . "home"
+       ]);
+```
+- AJAX examples on the homepage.
+- additional PDO Database templates, for quickly adding additional DBs.
+- simple auth framework for sites that need a login function.
