@@ -1,8 +1,8 @@
 # ![MINIM1 logo, a bold font with sharp angles](https://raw.githubusercontent.com/BeardyMike/MINIM1/dev/public/img/MINIM1-w.png#gh-dark-mode-only)![MINIM1 logo, a bold font with sharp angles](https://raw.githubusercontent.com/BeardyMike/MINIM1/dev/public/img/MINIM1.png#gh-light-mode-only)
- A clean PHP application, with diagnostic and setup tools, plenty of example pages, and many handy functions built in.
+ A clean PHP application, with some helpful diagnostic and setup tools, plenty of example pages, and many handy functions built in.
 <br> Ideal for PHP beginners, or someone looking for a clean starter MVC-pattern project.
  
- MINIM1 is an based on [MINI3](https://github.com/panique/mini3), from [Panique](https://github.com/panique). This project allows for much deeper customisation, and includes a number of new features that wouldn't make sense in the regular MINI3 project.
+ MINIM1 is based on [MINI3](https://github.com/panique/mini3), from [Panique](https://github.com/panique). This project allows for much deeper customisation, and includes a number of new features that wouldn't make sense in the regular MINI3 project.
 
  In the _Tools folder you'll find a number of useful tools, including a Python NameSpace Renamer, a Python Crawler for highlighting routing errors, and a full dummy SQL DB for you to import for testing purposes.
 
