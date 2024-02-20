@@ -1,6 +1,6 @@
 <?php
 
-namespace MINIM1\Controller;
+namespace MINIM1\controller;
 
 function view($path, $data = [])
 {

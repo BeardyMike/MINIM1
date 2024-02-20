@@ -1,9 +1,10 @@
 <?php
 
-namespace MINIM1\Model;
-use MINIM1\Core\Model;
+namespace MINIM1\model;
 
-class Auth extends Model
+use MINIM1\core\model;
+
+class auth extends model
 {
     public function validate_user($username, $password)
     {

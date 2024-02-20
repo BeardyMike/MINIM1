@@ -26,7 +26,7 @@ require ROOT . 'vendor/autoload.php';
 require APP . 'config/config.php';
 
 // load application class
-use MINIM1\Core\Application;
+use MINIM1\core\application;
 
 // start the application
-$app = new Application();
+$app = new application();

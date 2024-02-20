@@ -1,10 +1,10 @@
 <?php
 
-namespace MINIM1\Model;
+namespace MINIM1\model;
 
-use MINIM1\Core\Model;
+use MINIM1\core\model;
 
-class Create extends Model
+class create extends model
 {
 
 }

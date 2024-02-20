@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Class Error
+ * Class error
  *
  * Please note:
  * Don't use the same name for class and method, as this might trigger an (unintended) __construct of the class.
@@ -9,15 +9,15 @@
  *
  */
 
-namespace MINIM1\Controller;
+namespace MINIM1\controller;
 
 /**
  * Models
  * This is where you pull the models that are required for this controller
  */
-use MINIM1\model\Read;
+use MINIM1\model\read;
 
-class ErrorController
+class errorController
 {
     /**
      * PAGE: index

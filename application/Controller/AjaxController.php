@@ -1,6 +1,6 @@
 <?php
 /*
- * Class AjaxController
+ * Class ajaxController
  *
  * Please note:
  * Don't use the same name for class and method, as this might trigger an (unintended) __construct of the class.
@@ -8,9 +8,9 @@
  *
 */
 
-namespace MINIM1\Controller;
+namespace MINIM1\controller;
 
-class AjaxController
+class ajaxController
 {
     /*
      * PAGE: create

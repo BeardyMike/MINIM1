@@ -9,9 +9,9 @@
  *
  */
 
-namespace MINIM1\Controller;
+namespace MINIM1\controller;
 
-class HomeController
+class homeController
 {
     /**
      * PAGE: index

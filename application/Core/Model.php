@@ -1,10 +1,10 @@
 <?php
 
-namespace MINIM1\Core;
+namespace MINIM1\core;
 
 use PDO;
 
-class Model
+class model
 {
     /**
      * @var null Database Connection
