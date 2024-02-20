@@ -37,3 +37,4 @@ Open a terminal and use "composer install", this creates the VENDOR folder with 
 - AJAX examples on the homepage.
 - additional PDO Database templates, for quickly adding additional DBs.
 - simple auth framework for sites that need a login function.
+- add support for hyphenated URLs, passed form the frontend.
