@@ -1,6 +1,8 @@
 {
     "name": "beardymike/minim1",
     "minimum-stability": "dev",
+    "description": "simple PHP framework",
+    "license": "The MIT License",
     "require": {},
     "autoload":
     {
