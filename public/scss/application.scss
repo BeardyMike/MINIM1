@@ -1,0 +1,24 @@
+// Settings files
+@import "settings/colours";
+@import "settings/reset";
+@import "settings/fonts";
+@import "settings/gappy";
+
+// Structure containers
+@import "scaffold/scaffold";
+
+// Assets
+@import "assets/icons";
+@import "assets/images";
+@import "assets/buttons";
+
+// Global Components
+@import "global/header";
+@import "global/footer";
+@import "global/feedback";
+
+// Project structure files
+// Structure should be based on components
+// so they are re-usable without creating new styles
+
+@import "components/block_one";

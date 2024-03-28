@@ -1,0 +1,11 @@
+
+// All buttons styles
+
+.btn--blue{
+    background-color: $blue;
+    width: fit-content;
+    color: $white;
+    &:hover{
+        background-color: $black;
+    }
+}

@@ -1,0 +1,105 @@
+.content{
+    width: 100%;
+    float: left;
+    .content__sidebar__right{
+        width: 100%;
+        float: left;
+        display: grid;
+        grid-template-columns: 1fr 20rem;
+        grid-gap: 4rem;
+    }
+    .content__sidebar__left{
+        width: 100%;
+        float: left;
+        display: grid;
+        grid-template-columns: 20rem 1fr;
+        grid-gap: 4rem;
+    }
+    .content__full{
+        width: 100%;
+        float: left;
+        .full__header{
+            width: 100%;
+            float: left;
+        }
+    }
+    .content__image__full__left{
+        width: 100%;
+        float: left;
+        display: grid;
+        grid-template-columns: 0.8fr 1fr;
+    }
+    .content__image__full__right{
+        width: 100%;
+        float: left;
+        display: grid;
+        grid-template-columns: 1fr 0.8fr;
+        grid-gap: 4rem;
+        .full__right__image{
+            background-color: $blue;
+        }
+    }
+    .content__title__centered{
+        width: 100%;
+        float: left;
+        text-align: center;
+        .centered__stripe{
+            width: 30%;
+            height: 1px;
+            background-color: $blue;
+            position: relative;
+            margin-left: 35%;
+            margin-top: 0.5rem;
+            &:before{
+                content: '';
+                width: 8rem;
+                height: 0.2rem;
+                background-color: $blue;
+                position: absolute;
+                bottom: -0.2rem;
+                left: calc(50% - 4rem);
+                border-bottom-left-radius: 0.2rem;
+                border-bottom-right-radius: 0.2rem;
+            }
+        }
+    }
+    .content__block__half{
+        width: 100%;
+        float: left;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;
+        .block__half__image{
+            background-color: $blue;
+        }
+    }
+    .content__image__left{
+        width: 100%;
+        float: left;
+        display: grid;
+        grid-template-columns: 22rem 1fr;
+        grid-gap: 4rem;
+        .image__left__image{
+            background-color: $blue;
+        }
+        .image__left__body{
+
+        }
+    }
+    .content__data__point{
+        width: 100%;
+        float: left;
+        display: grid;
+        grid-template-columns: 20rem 1fr;
+        grid-gap: 4rem;
+        .data__point__image{
+            background-color: $blue;
+        }
+    }
+    .content__banner__contact{
+        width: 100%;
+        float: left;
+        min-height: 25rem;
+        background-color: $blue;
+    }
+}

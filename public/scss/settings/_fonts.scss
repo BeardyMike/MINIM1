@@ -1,0 +1,129 @@
+h1,h2,h3,h4,h5{
+    span{
+        color: $blue;
+    }
+}
+h1{
+	font-size: 5.5rem;
+	line-height: 5.5rem;
+}
+h2{
+	font-size: 4rem;
+	line-height: 4rem;
+}
+h3{
+	font-size: 3rem;
+	line-height: 3rem;
+	font-weight: 500;
+}
+h4{
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+	font-weight: 600;
+}
+h5{
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	font-weight: 600;
+}
+p, a, li{
+	font-size: 1.2rem;
+	line-height: 2rem;
+	color: $font1;
+}
+ul{
+	padding-left: 1.2rem;
+}
+@media only screen and (min-width : 1440px) {
+	h1{
+		font-size: 5.5rem;
+		line-height: 5.5rem;
+	}
+	h2{
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+	h3{
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+	h4{
+		font-size: 1.6rem;
+		line-height: 1.6rem;
+		font-weight: 600;
+	}
+	h5{
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+		font-weight: 600;
+	}
+	p, a, li{
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+	ul{
+		padding-left: 1.2rem;
+	}
+}
+@media only screen and (min-width : 1920px) {
+	h1{
+		font-size: 5.5rem;
+		line-height: 5.5rem;
+	}
+	h2{
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+	h3{
+		font-size: 2.5rem;
+		line-height: 3.5rem;
+	}
+	h4{
+		font-size: 1.6rem;
+		line-height: 1.6rem;
+		font-weight: 600;
+	}
+	h5{
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+		font-weight: 600;
+	}
+	p, a, li{
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+	ul{
+		padding-left: 1.2rem;
+	}
+}
+@media only screen and (min-width : 2560px) {
+	h1{
+		font-size: 5.5rem;
+		line-height: 5.5rem;
+	}
+	h2{
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+	h3{
+		font-size: 2.5rem;
+		line-height: 3.5rem;
+	}
+	h4{
+		font-size: 1.6rem;
+		line-height: 1.6rem;
+		font-weight: 600;
+	}
+	h5{
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+		font-weight: 600;
+	}
+	p, a, li{
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+	ul{
+		padding-left: 1.2rem;
+	}
+}

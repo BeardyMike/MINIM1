@@ -1,0 +1,26 @@
+$black: #111111;
+$white: #FFF;
+
+$dark1: darken(#1c1e22,1%);
+$dark2: lighten($dark1, 3%);
+$dark3: lighten($dark1, 6%);
+$dark4: lighten($dark1, 10%);
+
+$grey: #F9F9F9;
+$grey1: darken($grey, 3%);
+$grey2: darken($grey1, 3%);
+$grey3: darken($grey2, 3%);
+$grey4: darken($grey3, 3%);
+
+$font1: #111111;
+$font2: #222222;
+$font3: #444444;
+$font3: #666666;
+$font4: #888888;
+
+$blue: #299bfa;
+$yellow: #edad00;
+$purple: #6a4c93;
+$green: #02a0b7;
+$orange: #f9a53b;
+$pink: #ff595e;
